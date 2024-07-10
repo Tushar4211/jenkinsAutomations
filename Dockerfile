@@ -1,5 +1,4 @@
-ENTRYPOINT ["java",
-name: ci
+name: create DockerImg
 
 on:
   push:
