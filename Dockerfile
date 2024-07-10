@@ -1,3 +1,4 @@
+ENTRYPOINT ["java",
 name: ci
 
 on:
