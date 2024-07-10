@@ -1,1 +1,1 @@
-docker build . -f Dockerfile.base -t helloworld
+docker build . -f docker-publish.yml
