@@ -1,1 +1,1 @@
-docker build . -f docker-publish.yml
+docker build -f- .github/workflows/publish.yml
