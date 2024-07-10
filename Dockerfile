@@ -1,1 +1,1 @@
-docker build -t getting-started ./app
+docker build . -f Dockerfile.base -t helloworld
