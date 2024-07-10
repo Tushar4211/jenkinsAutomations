@@ -4,7 +4,7 @@ on:
   push:
 
 jobs:
-  docker:
+  docker:DOCKER_BUILDKIT=1 docker build --ssh default -t my_image .
     runs-on: ubuntu-latest
     steps:
       -
